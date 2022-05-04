@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+
+.container{
+	height: 500px;
+	text-align: center;
+	position: relative;
+    display: flex;
+    align-content: stretch;
+}
+.item {
+	flex: 1;
+	margin: 30px;;
+    text-align: center;
+	background: rgb(71, 218, 255);
+	font-size: 2em;
+}
+
+.item3 {
+    margin: 30px;
+	background: rgb(71, 218, 255);
+	text-align: center;
+	font-size: 2em;
+	position: relative;
+    flex: 1 1 600px;
+    padding: 25px;
+}
+
+.basis-600-grow-1 {
+    margin: 30px;
+	background: rgb(71, 218, 255);
+	text-align: left;
+	font-size: 2em;
+	position: relative;
+    flex: 1 1 600px;
+    padding: 30px;
+}
+
+.basis-600-grow-2 {
+    margin: 30px;
+	background: rgb(71, 218, 255);
+	text-align: center;
+	font-size: 2em;
+	position: relative;
+    flex: 1 1 600px;
+    padding: 50px;
+}
+
+.basis-600-grow-3 {
+    margin: 30px;
+	background: rgb(71, 218, 255);
+	text-align: center;
+	font-size: 2em;
+	position: relative;
+    flex: 600px;
+    padding: 60px;
+}
+
+</style>
+</head>
+<body>
+<p>
+<div class="basis-600-grow-1">LOGO</div>
+</p>
+<p>
+<div class="basis-600-grow-3">Header/Banner</div>
+</p>
+<p>
+<div class="basis-600-grow-2">Intro Text Area</div>
+</p>
+<section class="container">
+<div class="item">Box1</div>
+<div class="item">Box2</div>
+<div class="item">Box3</div>
+</section>
+<div class="item3">Footer</div>
+
+</body>
+</html>
