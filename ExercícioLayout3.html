@@ -2,90 +2,48 @@
 <html>
 <head>
 <style>
-
-.container{
-	height: 500px;
-	text-align: center;
-	position: relative;
-    display: flex;
-    align-content: stretch;
-}
-.item1 {
-    max-width: 900px;
-    position: absolute;
-    margin: 30px;
-	background: rgb(71, 218, 255);
-	text-align: center;
-	font-size: 2em;
-	position: relative;
-    flex: 1 1 600px;
-    padding: 30px;
-
-}
-.item2 {
-    margin: 30px;
-	background: rgb(71, 218, 255);
-	text-align: center;
-	font-size: 2em;
-	position: relative;
-    flex: 1 1 600px;
-    padding: 30px;
-}
-
-
-.item3 {
-    margin: 30px;
-	background: rgb(71, 218, 255);
-	text-align: center;
-	font-size: 2em;
-	position: relative;
-    flex: 1 1 600px;
-    padding: 25px;
-}
-
-
-.basis-600-grow-1 {
-    margin: 30px;
-	background: rgb(71, 218, 255);
-	text-align: left;
-	font-size: 2em;
-	position: relative;
-    flex: 1 1 600px;
-    padding: 40px;
-}
-
-.basis-600-grow-2 {
-    margin: 30px;
-	background: rgb(71, 218, 255);
-	text-align: center;
-	font-size: 2em;
-	position: relative;
-    flex: 1 1 600px;
-    padding: 25px;
-}
-
-.basis-600-grow-3 {
-    margin: 30px;
-	background: rgb(71, 218, 255);
-	text-align: center;
-	font-size: 2em;
-	position: relative;
-    flex: 600px;
-    padding: 60px;
-}
-
+	.item1{
+		width: 100%;
+		height: 35px;
+		margin: 2px;
+		text-align: left;
+		background-color: rgb(71, 218, 255);
+	}
+	.item2{
+		width: 50%;
+		height: 80px;
+		margin: 2px;
+		text-align: center;
+		background-color: rgb(71, 218, 255);
+		float: right;
+	}
+	.item3{
+		width: 50%;
+		height: 250px;
+		margin: 2px;
+		text-align: center;
+		background-color: rgb(71, 218, 255);
+		float: right;
+	}
+	.item4{
+		width: 100%;
+		height: 35px;
+		margin: 2px;
+		text-align: center;
+		background-color: rgb(71, 218, 255);
+		float: left;
+	}
 </style>
 </head>
 <body>
-<p>
-<div class="basis-600-grow-1">LOGO</div>
-</p>
-<section class="container">
-<div class="basis-600-grow-3">Header/Banner</div>
-<div class="item1">Side Bar</div>
-</section>
-<div class="item2">Body Area</div>
-<div class="item3">Footer</div>
-
+	<div class="container">
+	<div class="item1">Logo</div>
+	<div class="item2">Header/Banner</div>
+	<div>Side Bar
+		<p>Navigation</p>
+	</div>
+	<div class="item3">Body Area</div>
+	<div class="item4">Footer</div>
+	</div>
 </body>
 </html>

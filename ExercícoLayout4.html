@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.grid-container {
+    margin: 20px;
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  gap: 40px;
+  flex: 1;
+  padding: 10px;
+  height: 800px;
+}
+
+.grid-container > div {
+  background: rgb(71, 218, 255);
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+}
+
+.item1 {
+  grid-row-start: 4;
+  grid-row-end: 4;
+}
+
+.container{
+	height: 600px;
+	text-align: center;
+	position: relative;
+    display: flex;
+    align-content: stretch;
+}
+
+.basis-600-grow-1 {
+    margin: 30px;
+	background: rgb(71, 218, 255);
+	text-align: left;
+	font-size: 2em;
+	position: relative;
+    flex: 1 1 600px;
+    padding: 30px;
+    height: 200px;
+}
+
+.box {
+	flex: 1;
+	margin: 30px;;
+    text-align: center;
+	background: rgb(71, 218, 255);
+	font-size: 2em;
+}
+
+.footer {
+    margin: 30px;
+	background: rgb(71, 218, 255);
+	text-align: center;
+	font-size: 2em;
+	position: relative;
+    flex: 1 1 600px;
+    padding: 25px;
+    height: 200px;
+}
+</style>
+</head>
+<body>
+    <div class="basis-600-grow-1">LOGO</div>
+<div class="grid-container">
+  <div class="item1"></div>
+  <div class="item2"></div>
+  <div class="item3"></div>  
+  <div class="item4"></div>
+  <div class="item5"></div>
+  <div class="item6"></div>
+  <div class="item7"></div>
+  <div class="item8"></div>  
+  <div class="item9"></div>  
+  <div class="item10"></div>  
+  <div class="item11"></div>  
+  <div class="item12"></div>
+  <div class="item13"></div>
+  <div class="item14"></div>
+  <div class="item15"></div>
+  <div class="item16"></div>
+</div>   
+  <section class="container">
+    <div class="box">Box1</div>
+    <div class="box">Box2</div>
+    <div class="box">Box3</div>
+    </section>
+<div class="footer">Footer</div>
+
+</body>
+</html>
